@@ -15,7 +15,8 @@ public abstract class LivingEntityRendererMixin<T extends LivingEntity> {
 
 	@Inject(method = "hasLabel(Lnet/minecraft/entity/LivingEntity;D)Z", at = @At("TAIL"), cancellable = true)
 	private <T extends LivingEntity> void forceNametagVisibility(T livingEntity, double distance, CallbackInfoReturnable<Boolean> cir) {
-		if (cir.getReturnValue() || !ShowPlayerNametags.enableModSetting) return;
+		if (cir.getReturnValue()) return;
+		if (!ShowPlayerNametags.getConfig().enabled) return;
 
 		MinecraftClient minecraftClient = MinecraftClient.getInstance();
 		ClientPlayerEntity clientPlayerEntity = minecraftClient.player;

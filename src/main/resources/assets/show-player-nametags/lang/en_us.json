@@ -1,5 +1,4 @@
 {
-  "title.showplrnametags.config": "Show Player Nametags",
-  "category.showplrnametags.general": "General",
-  "option.showplrnametags.toggle": "Enable"
+  "text.autoconfig.show-player-nametags.title": "Show Player Nametags",
+  "text.autoconfig.show-player-nametags.option.enabled": "Enabled"
 }
