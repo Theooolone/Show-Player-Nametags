@@ -1,4 +1,7 @@
 {
   "text.autoconfig.show-player-nametags.title": "Show Player Nametags",
-  "text.autoconfig.show-player-nametags.option.enabled": "Enabled"
+  "text.autoconfig.show-player-nametags.option.enabled": "Enabled",
+  "text.autoconfig.show-player-nametags.option.show_other_player_nametags": "Show other player's nametags",
+  "text.autoconfig.show-player-nametags.option.show_own_nametag": "Show own nametag",
+  "text.autoconfig.show-player-nametags.option.show_entity_nametags": "Show non-player entity nametags"
 }
