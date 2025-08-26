@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.show-player-nametags.title": "显示玩家名称标签",
+  "text.autoconfig.show-player-nametags.option.enabled": "启用",
+  "text.autoconfig.show-player-nametags.option.show_other_player_nametags": "显示其他玩家的名称标签",
+  "text.autoconfig.show-player-nametags.option.show_own_nametag": "显示自己的名称标签",
+  "text.autoconfig.show-player-nametags.option.show_entity_nametags": "显示非玩家实体的名称标签"
+}
